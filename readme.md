@@ -17,6 +17,13 @@ To systematically understand how LLMs simulate society, this project focuses on 
 5. **Key Considerations & Ethics:** Addressing toxicity, systemic biases, data contamination, and the computing costs of running thousands of LLM calls in a single simulation step.
 
 ---
+### Simulation Platforms
+
+[Go to Simulation Platforms README](./Simulation_Platforms/readme.md)
+
+
+---
+
 
 ## ✍️ Research Deep Dives & Substack Blogs
 
@@ -42,13 +49,6 @@ Beyond theory, this repository hosts boilerplate and modular code implementation
 
 ---
 
-## 🛠️ Key Dimensions to Consider (When Building/Reading)
-
-If you are entering this field, these are the five pillars we constantly evaluate in every paper:
-
-> 🧩 **Generative Fidelity vs. Social Reality:** Does an agent act like a real human under a specific demographic profile, or does it just act like a generic, overly polite AI?
->
-> 📉 **The Cascading Error Problem:** If one agent hallucinates an interaction in step 2, how drastically does it derail the entire society by step 100?
 
 ---
 
