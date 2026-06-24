@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="80rTsNBKWPWLKHlBC03Z">
+    <mxGraphModel dx="657" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-14" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fxXFIIgvtTR39ezbxLGD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-15" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" target="fxXFIIgvtTR39ezbxLGD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="idle_seeking (INIT)&lt;div&gt;[actively seeking]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIMULATION START" vertex="1">
+          <mxGeometry height="30" width="150" x="245" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-28" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" target="fxXFIIgvtTR39ezbxLGD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="in_conversation&lt;div&gt;[engaged in dialogue with partner]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="125" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-19" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" target="fxXFIIgvtTR39ezbxLGD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="waiting&amp;nbsp;&lt;div&gt;[queued for slot]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="260" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-20" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" target="fxXFIIgvtTR39ezbxLGD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="reserved&lt;div&gt;[has pending_partner]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="395" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-16" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" target="fxXFIIgvtTR39ezbxLGD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ATOMIC HANDOFF:&lt;div&gt;reserved agent stays in_conversation,&lt;/div&gt;&lt;div&gt;pending_partner&amp;nbsp;→ in_conversation&lt;/div&gt;&lt;div&gt;original partner agent → idle_seek&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="280" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(partner done)" vertex="1">
+          <mxGeometry height="30" width="90" x="340" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-29" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=0;" target="fxXFIIgvtTR39ezbxLGD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-30" connectable="0" parent="fxXFIIgvtTR39ezbxLGD-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[cycle continues ...]" vertex="1">
+          <mxGeometry relative="1" x="-0.7182" y="8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-32" connectable="0" parent="fxXFIIgvtTR39ezbxLGD-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="[if max_cycles reached]" vertex="1">
+          <mxGeometry relative="1" x="-0.3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="idel_seeking (RESTART)&lt;div&gt;[back to seeking]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="180" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-23" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="310" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-26" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="40" width="45" x="297.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fxXFIIgvtTR39ezbxLGD-27" edge="1" parent="1" source="fxXFIIgvtTR39ezbxLGD-26" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fillColor=#000000;" target="fxXFIIgvtTR39ezbxLGD-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
